@@ -41,6 +41,9 @@ GEM
       rack (>= 3.0.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
     rake (13.2.1)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
@@ -72,6 +75,7 @@ GEM
     tilt (2.4.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    webrick (1.8.2)
 
 PLATFORMS
   arm64-darwin-23
@@ -83,6 +87,7 @@ DEPENDENCIES
   dotenv
   encrypted_strings
   httparty
+  rackup
   rake
   rspec
   sinatra
